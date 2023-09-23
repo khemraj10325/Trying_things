@@ -1,0 +1,70 @@
+body{
+    text-align: center;
+}
+
+.Panel{
+    display:flex;
+    background-color: rgb(119, 238, 242) ;
+    height:50 px;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+#Course,#Search,#Home,#Contact,#Suggestions,#Email{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color:rgb(119, 238, 242) ;
+height: 35px ;
+width: 200px;
+}
+ label{
+    color: black;
+    font-size: medium;
+}
+#main{       /* flexbox for photo ans name contact*/
+    display: flex;
+    flex-direction: column;
+    padding-top: 15px;
+    height: 400px;
+    width: 300px;
+    align-items: center;
+    justify-content: start;
+    border: 3px solid black;
+    
+    
+
+}
+#img{
+    border: 3px solid black;
+    height:170px;
+    width: 170px;
+    border-radius: 50%;
+    background-image: url("khem.png");
+    background-size: cover;
+}
+.Panel input[type = "text"]
+{
+    width: 150px;
+}
+#mail{
+    text-decoration: none;
+}
+#Experiences{
+   right: 0px;
+   border: 3px solid black;
+   bottom:100px;
+   top:43px;
+    position:absolute;
+    z-index: -1;
+    background-color:blk;
+    height:1200px;
+    width:1221px;
+}
+#exp
+{
+text-align: left;
+}
+#img:hover{
+    transform: translate(300px);
+}
